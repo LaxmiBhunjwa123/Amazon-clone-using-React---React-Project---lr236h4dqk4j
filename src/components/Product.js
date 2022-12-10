@@ -1,6 +1,7 @@
 import React from "react";
 import { useAuth } from "./context/GlobalState";
 import starIcon from "./images/icons/star.png";
+import "./Product.css";
 
 
 const Product = ({ title, price, image, rating, id }) => {
